@@ -19,17 +19,22 @@ Ensure you have the necessary libraries installed, including `face_recognition`,
 
 ```bash
 pip install face_recognition opencv-python numpy pandas
+```
 
 ## Example Usage
 
 # Example usage of detect_faces
-detect_faces('/path/to/image_or_folder')
+```detect_faces('/path/to/image_or_folder')```
 
 # Example usage of add_person
-add_person('/path/to/person_folder')
+```add_person('/path/to/person_folder')```
 
 # Example usage of recognize_person
-recognize_person('/path/to/new/image.jpg')
+```recognize_person('/path/to/new/image.jpg')```
 
 # Example usage of create_dataset_dataframe
-create_dataset_dataframe()
+```create_dataset_dataframe()```
+
+
+
+
