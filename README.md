@@ -5,7 +5,7 @@
 ## Features
 
 - **Face Detection**: Detect faces in a given image or a folder containing multiple images. This function is optional and can be used as a preliminary step for face recognition.
-> The system initially detects faces within images. This step employs a Histogram of Oriented Gradients (HOG) algorithm combined with a linear classifier, an image pyramid, and a sliding window detection scheme. The HOG feature descriptor is used for object detection due to its effectiveness in capturing edge or gradient structure that is characteristic of local shape.
+  > The system initially detects faces within images. This step employs a Histogram of Oriented Gradients (HOG) algorithm combined with a linear classifier, an image pyramid, and a sliding window detection scheme. The HOG feature descriptor is used for object detection due to its effectiveness in capturing edge or gradient structure that is characteristic of local shape.
 
 - **Person Addition**: Add new persons to the dataset for future recognition.
 - **Person Recognition**: Recognize persons already added to the dataset in new, unseen images.
